@@ -215,47 +215,52 @@ växterna tills det är dags att skörda blommorna, jag tar genvägar och köper
                             Spana in några av mina senaste alster.
                         </p>
 
+
+
+
+                        
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bild Rutlayout</title>
+<title>Bildrutlayout med olika gap</title>
 <style>
-    /* 1. Container för rutnätet */
-    .grid-container {
-        display: grid;
-        /* Skapar automatiskt kolumner, minst 250px breda, max 1 fraktion av utrymmet */
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px; /* Avstånd mellan bilder */
-        padding: 15px;
-    }
+  .grid-container {
+    display: grid;
+    /* Skapar 3 kolumner som är lika breda */
+    grid-template-columns: repeat(3, 1fr); 
+    
+    /* DEFINIERA OLIKA GAP HÄR */
+    row-gap: 40px;    /* Stort avstånd mellan rader */
+    column-gap: 10px; /* Litet avstånd mellan kolumner */
+    
+    padding: 20px;
+  }
 
-    /* 2. Styling för varje bild-item */
-    .grid-item img {
-        width: 100%;
-        height: 250px; /* Fast höjd för att skapa en jämn rutlayout */
-        object-fit: cover; /* Beskär bilden så den passar utan att bli utdragen */
-        border-radius: 0px; /* Mjuka hörn */
-        transition: transform 0.3s ease; /* Animation vid hover */
-    }
-
-    /* 3. Liten effekt vid hover */
-    .grid-item img:hover {
-        transform: scale(1.05);
-    }
+  .grid-item img {
+    width: 100%;
+    height: 200px; /* Fast höjd för att göra det jämnt */
+    object-fit: cover; /* Beskär bilden snyggt för att fylla rutan */
+    display: block;
+    border-radius: 8px;
+  }
 </style>
 </head>
 <body>
 
-    <div class="grid-container">
-        <div class="grid-item"><img src="images/gallery-astrantia.jpg" alt="Astrantia major"></div>
-        <div class="grid-item"><img src="images/gallery-pillerdosa.jpg" alt="Astrantia major"></div>
-        <div class="grid-item"><img src="images/gallery-orkie.jpg" alt="Beskrivning 3"></div>
-        <div class="grid-item"><img src="images/gallery-iris.jpg" alt="Beskrivning 4"></div>
-        <div class="grid-item"><img src="images/gallery-tang.jpg" alt="Beskrivning 5"></div>
-        <div class="grid-item"><img src="images/gallery-viol.jpg" alt="Beskrivning 6"></div>
-    </div>
+<div class="grid-container">
+  <div class="grid-item"><img src="bild1.jpg" alt="Beskrivning 1"></div>
+  <div class="grid-item"><img src="bild2.jpg" alt="Beskrivning 2"></div>
+  <div class="grid-item"><img src="bild3.jpg" alt="Beskrivning 3"></div>
+  <div class="grid-item"><img src="bild4.jpg" alt="Beskrivning 4"></div>
+  <div class="grid-item"><img src="bild5.jpg" alt="Beskrivning 5"></div>
+  <div class="grid-item"><img src="bild6.jpg" alt="Beskrivning 6"></div>
+</div>
 
 </body>
+
+
+
+                        
     
                         <ul class="folio-list row block-lg-one-half block-stack-on-1000">
 
@@ -564,6 +569,7 @@ växterna tills det är dags att skörda blommorna, jag tar genvägar och köper
 </body>
 
 </html>
+
 
 
 
