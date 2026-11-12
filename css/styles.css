@@ -127,26 +127,26 @@
      * Tint & Shade Generator 
      * (https://maketintsandshades.com/)
      */
-    --color-black   : #000000;
-    --color-gray-19 : #020202;
-    --color-gray-18 : #040404;
-    --color-gray-17 : #060607;
-    --color-gray-16 : #080809;
-    --color-gray-15 : #0a0b0b;
-    --color-gray-14 : #0c0d0d;
-    --color-gray-13 : #0e0f0f;
-    --color-gray-12 : #101112;
-    --color-gray-11 : #121314;
-    --color-gray-10 : #141516;
-    --color-gray-9  : #2c2c2d;
-    --color-gray-8  : #434445;
-    --color-gray-7  : #5b5b5c;
-    --color-gray-6  : #727373;
-    --color-gray-5  : #8a8a8b;
-    --color-gray-4  : #a1a1a2;
-    --color-gray-3  : #b9b9b9;
-    --color-gray-2  : #d0d0d0;
-    --color-gray-1  : #e8e8e8;
+    --color-black   : #140803;
+    --color-gray-19 : #291005;
+    --color-gray-18 : #3D1808;
+    --color-gray-17 : #51200B;
+    --color-gray-16 : #66280E;
+    --color-gray-15 : #7A2F10;
+    --color-gray-14 : #8E3713;
+    --color-gray-13 : #A23F16;
+    --color-gray-12 : #B74718;
+    --color-gray-11 : #CB4F1B;
+    --color-gray-10 : #CB4F1B;
+    --color-gray-9  : #D06132;
+    --color-gray-8  : #D57249;
+    --color-gray-7  : #DB845F;
+    --color-gray-6  : #E09576;
+    --color-gray-5  : #E5A78D;
+    --color-gray-4  : #EAB9A4;
+    --color-gray-3  : #EFCABB;
+    --color-gray-2  : #F5DCD1;
+    --color-gray-1  : #FAEDE8;
     --color-white   : #ffffff;
 
     /* text
